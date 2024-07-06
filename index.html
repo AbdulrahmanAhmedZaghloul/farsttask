@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Task</title>
+  <link rel="icon" href="src/image/logo-focal.webp">
+  <meta name="description" content="Abdulrahman Zaghloul">
+  <meta name="keywords" content="Task">
+  <meta name="author" content="Abdulrahman Zaghloul">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link href="../src/css/all.min.css" rel="stylesheet">
+  <link href="../dist/output.css" rel="stylesheet">
+  <link href="../src/css/input.css" rel="stylesheet">
+
+
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="bg-[#282828] border-gray-700">
+    <div class="container flex flex-wrap p-3 items-center justify-between mx-auto ">
+      <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img class="w-20" src="./src//image//logo-focal.webp" alt="">
+        </a>
+      <button id="menu-toggle" type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg  lg:hidden hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-multi-level" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
+      </button>
+      <div class="hidden w-full lg:block md:w-auto" id="navbar-multi-level">
+        <ul class="nav-menu flex flex-col font-medium p-4 md:space-x-4 rtl:space-x-reverse md:flex-row ">
+          <li class="nav-item">
+            <a href="#" class="block text-sm py-2 px-3 text-gray-300  rounded" aria-current="page">Shop by category</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="block text-sm py-2 px-3 text-gray-300 ">Shop by Device</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="block text-sm py-2 px-3 text-gray-300 ">Collections</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="block text-sm py-2 px-3 text-gray-300 ">Blog</a>
+          </li>
+          <li class="nav-item">
+            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+              class="flex text-sm relative items-center justify-between w-full py-2 px-3 text-gray-300">
+              United States (USD $)
+              
+              <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 10 6">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="m1 1 4 4 4-4" />
+              </svg></button>
+            <div id="dropdownNavbar"
+              class="z-10 hidden absolute font-normal bg-[#282828] divide-y divide-gray-100 rounded-lg shadow w-44 ">
+              <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownLargeButton">
+                <li>
+                  <a href="#" class="block text-sm px-4 py-2 hover:bg-[#363636]">egypt (EPG)</a>
+                </li>
+
+                <li>
+                  <a href="#" class="block px-4 py-2 hover:bg-[#363636]  dark:hover:text-white">United States (USD $)</a>
+                </li>
+
+                <li>
+                  <a href="#" class="block px-4 py-2 hover:bg-[#363636]  dark:hover:text-white">Europe (EUR)</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="flex items-center space-x-2">
+            <i class="text-white px-1 fa-regular fa-envelope"></i>
+            <i class="text-white px-1 fa-solid fa-magnifying-glass"></i>
+            <i class="text-white px-1 fa-regular fa-user"></i>
+            <span class="relative">
+              <i class="text-white px-1 fa-regular fa-clipboard"></i>
+              <span class="bg-white px-1 py-0 top-0 left-3 text-xs rounded-full text-black absolute">0</span>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+
+  <header class="w-full overflow-hidden mx-auto ">
+    <div class="swiper-container " >
+      <div class="swiper-wrapper">
+        <div class="swiper-slide flex item-center justify-center">
+          <div id="slider-image-3"
+            class="bg-[url('/src/image/image1.jpg')] bg-no-repeat  bg-cover w-full h-screen">
+            <div class="p-4 flex ms-14 h-full flex-col justify-center text-white ">
+              <p class="text-white text-sm">COLLABORATION</p>
+              <h1 class="text-white text-5xl font-extrabold">NATIVE NUION <br> X TOM DIXON</h1>
+              <button class="p-2 bg-yellow-400 w-fit mt-5">LEAEN MORE</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide flex item-center justify-center">
+          <div id="slider-image-3"
+            class="bg-[url('/src/image/image-3.jpg')] bg-no-repeat  bg-cover bg-center w-full h-screen">
+            <div class="p-4 flex ms-14 h-full flex-col justify-center text-white ">
+              <p class="text-white text-sm">COLLABORATION</p>
+              <h1 class="text-white text-5xl font-extrabold">NATIVE NUION <br> X TOM DIXON</h1>
+              <button class="p-2 bg-yellow-400 w-fit mt-5">LEAEN MORE</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide flex item-center justify-center">
+          <div id="slider-image-3"
+            class="bg-[url('/src/image/image3.jpg')] bg-no-repeat  bg-cover bg-center w-full h-screen">
+            <div class="p-4 flex ms-14 h-full flex-col justify-center text-white ">
+              <p class="text-white text-sm">COLLABORATION</p>
+              <h1 class="text-white text-5xl font-extrabold">NATIVE NUION <br> X TOM DIXON</h1>
+              <button class="p-2 bg-yellow-400 w-fit mt-5">LEAEN MORE</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide flex item-center justify-center">
+          <div id="slider-image-3"
+            class="bg-[url('/src/image/image4.jpg')] bg-no-repeat  bg-cover bg-center w-full h-screen">
+            <div class="p-4 flex ms-14 h-full flex-col justify-center text-white ">
+              <p class="text-white text-sm">COLLABORATION</p>
+              <h1 class="text-white text-5xl font-extrabold">NATIVE NUION <br> X TOM DIXON</h1>
+              <button class="p-2 bg-yellow-400 w-fit mt-5">LEAEN MORE</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide flex item-center justify-center">
+          <div id="slider-image-3"
+            class="bg-[url('/src/image/image-12.jpg')] bg-no-repeat  bg-cover bg-center w-full h-screen">
+            <div class="p-4 flex ms-14 h-full flex-col justify-center text-white ">
+              <p class="text-white text-sm">COLLABORATION</p>
+              <h1 class="text-white text-5xl font-extrabold">NATIVE NUION <br> X TOM DIXON</h1>
+              <button class="p-2 bg-yellow-400 w-fit mt-5">LEAEN MORE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination "></div>
+    </div>
+  </header>
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="../src/js/index.js"></script>
+
+
+</body>
+
+</html>
